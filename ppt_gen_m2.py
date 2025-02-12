@@ -58,6 +58,11 @@ add_slides_from_text_block(ppt, text_block=text_block_3, words_per_slide=25)
 text_block_4 = ("text bloc4")
 add_slides_from_text_block(ppt, text_block=text_block_4, words_per_slide=25)
 
+# Song 5
+text_block_5 = ("text bloc5")
+add_slides_from_text_block(ppt, text_block=text_block_5, words_per_slide=25)
+
+# ^ added 5 songs
 
 # Save the presentation
-ppt.save('AutoGenSlides_123_test.pptx')
+ppt.save('AutoGenSlides.pptx')
